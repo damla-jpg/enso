@@ -1,0 +1,69 @@
+.App {
+  text-align: center;
+  background-color: #4920E7;
+  margin-top: 8vh;
+  height: 92vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+ .navbar {
+  background-color: #4920E7;
+  border-color: black;
+  border-bottom: 10px black;
+  height: 8vh;
+  width: 100vw;
+  align-items: flex-start;
+}
+
+.company {
+  cursor: pointer;
+  color: #FCFAFF;
+  padding: 1%;
+  display:block;
+  width: 10vw;
+}
+
+.company-name {
+  margin-left: 5%;
+}
+
+.nav-button{
+  background-color: transparent;
+  border-color: transparent;
+  text-decoration: none;
+  text-align: center;
+  color: white;
+  font-size: 80%;
+  float: right;
+  margin-right: 1%;
+  
+}
+
+.nav-buttons{
+  width: 80vw;
+  display: block;
+  margin-right: 1%;
+} 
+
+.home-container{
+  margin-top: 20vh;
+  width: 100vw;
+  height: 50vh;
+  align-items: center;
+}
+
+.welcome{
+  margin-left: 10vw;
+  width: 30vw;
+  float:left;
+}
+
+.sign-up{
+  width: 30vw;
+  margin-right: 10vw;
+  float:right;
+}
