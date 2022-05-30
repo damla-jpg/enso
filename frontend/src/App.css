@@ -58,12 +58,13 @@
 
 .welcome{
   margin-left: 10vw;
-  width: 30vw;
+  width: 32vw;
   float:left;
 }
 
 .sign-up{
-  width: 30vw;
+  width: 32vw;
   margin-right: 10vw;
+  text-align: left;
   float:right;
 }

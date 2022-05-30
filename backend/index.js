@@ -12,6 +12,7 @@ var cors = require("cors");
 //added cors for test purposes also idk what it does tbh
 
 app.use(cors());
+app.use(express.json())
 app.use('/admin', adminRouter);
 app.use('/social', socialRouter);
 app.use('/scheduler', schedulerRouter);
