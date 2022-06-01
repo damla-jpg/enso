@@ -9,6 +9,7 @@ var schedulerRouter = require("./Routes/scheduler.routes");
 var socialRouter = require("./Routes/social.routes");
 var testAPIRouter = require("./Routes/test.route");
 var cors = require("cors");
+const bodyParser = require('body-parser');
 //added cors for test purposes also idk what it does tbh
 
 app.use(cors());
