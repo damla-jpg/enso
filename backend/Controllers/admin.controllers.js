@@ -6,7 +6,11 @@
  * return the token
  */
 const adminRegister = (req, res, next) => {
-
+    const username = req.body.user;
+    const password = req.body.password;
+    console.log('Got body:', req.body);
+    res.status(201).json(req.body);
+    
     return;
 };
 
@@ -17,6 +21,10 @@ const adminRegister = (req, res, next) => {
  * return the token
  */
  const adminLogin = (req, res, next) => {
+    const username = req.body.user;
+    const password = req.body.password;
+    console.log('Got body:', req.body);
+    res.status(201).json(req.body);
 
     return;
 };
